@@ -17,9 +17,9 @@ function App() {
       <Header
         refs={{
           Home: homeRef,
-          Facts: factsRef,
-          Motivation: motivationRef,
-          'Our Team': teamRef,
+          'Our Vision': factsRef,
+          'Why We Build': motivationRef,
+          'Meet the Team': teamRef,
         }}
       />
       <section ref={homeRef} id="Home">
