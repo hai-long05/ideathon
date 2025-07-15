@@ -25,7 +25,10 @@ const Home = () => {
           transition={{ delay: 0.9, duration: 1, ease: 'easeOut' }}
         >
           We're a team of students turning bold ideas into sustainable
-          innovation — by challenging outdated models and building what's next.
+          innovation — by challenging outdated models and exploring what's next.
+          At the DSAG Ideathon 2025, we aim to develop business models that are
+          not only visionary, but also grounded in real-world relevance and
+          built for long-term impact.
         </motion.div>
       </motion.div>
     </motion.div>
