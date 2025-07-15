@@ -11,10 +11,9 @@ const Header = ({ refs }: HeaderProps) => {
     const ref = refs[section];
     if (!ref?.current) return;
 
-    const headerOffset = document.querySelector('header')?.clientHeight ?? 64;
     const elementPosition =
       ref.current.getBoundingClientRect().top + window.pageYOffset;
-    const offsetPosition = elementPosition - headerOffset;
+    const offsetPosition = elementPosition;
 
     window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
   };
