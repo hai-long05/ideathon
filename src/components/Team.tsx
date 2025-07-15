@@ -25,7 +25,7 @@ const Team = () => {
           name="Jason Rückheim"
           title="Turning Potential into Performance"
           text="With a sharp focus on outcomes, Jason bridges ambition and strategy to build meaningful solutions."
-          picture="/jasonbla.jpg"
+          picture="/jason.jpg"
           delay={0.4}
           link="https://linkedin.com/in/jasonrückheim"
         />

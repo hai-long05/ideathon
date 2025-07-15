@@ -15,7 +15,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7, duration: 1, ease: 'easeOut' }}
         >
-          Innovating Solutions for a Sustainable Future
+          Reinventing Business for a New Era
         </motion.div>
 
         <motion.div
@@ -24,9 +24,8 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 1, ease: 'easeOut' }}
         >
-          We are a team of forward-thinking students passionate about
-          reinventing business models. At the DSAG Ideathon, we aim to turn bold
-          ideas into real impact.
+          We're a team of students turning bold ideas into sustainable
+          innovation — by challenging outdated models and building what's next.
         </motion.div>
       </motion.div>
     </motion.div>
