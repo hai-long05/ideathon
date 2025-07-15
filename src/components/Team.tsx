@@ -1,3 +1,4 @@
+import { ChevronRight } from 'lucide-react';
 import { motion } from 'motion/react';
 
 const Team = () => {
@@ -10,6 +11,7 @@ const Team = () => {
           text="From vision to execution - Hai Long combines creativity with technical skill to bring ideas to life."
           picture="/hailong.png"
           delay={0}
+          link="https://github.com/hai-long05"
         />
         <Card
           name="Patrick Woznik"
@@ -17,6 +19,7 @@ const Team = () => {
           text="Patrick translates bold concepts into actionable plans that empower teamwork and real progress."
           picture="/patrick.png"
           delay={0.2}
+          link="https://www.linkedin.com/in/patrick-woznik/"
         />
         <Card
           name="Jason Rückheim"
@@ -24,6 +27,7 @@ const Team = () => {
           text="With a sharp focus on outcomes, Jason bridges ambition and strategy to build meaningful solutions."
           picture="/jason.jpg"
           delay={0.4}
+          link="https://linkedin.com/in/jasonrückheim"
         />
       </div>
     </div>
@@ -38,12 +42,13 @@ type CardProps = {
   text: string;
   picture: string;
   delay: number;
+  link: string;
 };
 
-const Card = ({ name, title, text, picture, delay }: CardProps) => {
+const Card = ({ name, title, text, picture, delay, link }: CardProps) => {
   return (
     <motion.div
-      className="flex flex-col items-center text-center w-[340px]"
+      className="flex flex-col items-center text-center w-[360px]"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
@@ -53,12 +58,16 @@ const Card = ({ name, title, text, picture, delay }: CardProps) => {
         <img
           src={picture}
           alt={name}
-          className="w-72 h-72 object-cover rounded-full"
+          className="w-72 h-72 rounded-full object-scale-down"
         />
       </div>
       <div className="text-sm font-medium">{name}</div>
       <div className="text-2xl pb-6">{title}</div>
       <div className="text-sm text-gray-600">{text}</div>
+      <a href={link} className="pt-8 flex flex-row items-center justify-center">
+        <p className="pr-2">See More</p>
+        <ChevronRight size={20} />
+      </a>
     </motion.div>
   );
 };
