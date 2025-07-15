@@ -9,7 +9,7 @@ const Team = () => {
           name="Hai Long Do Pham"
           title="Driving Ideas into Impact"
           text="From vision to execution - Hai Long combines creativity with technical skill to bring ideas to life."
-          picture="/hailongbla.png"
+          picture="/hailong_new.png"
           delay={0}
           link="https://github.com/hai-long05"
         />
@@ -17,7 +17,7 @@ const Team = () => {
           name="Patrick Woznik"
           title="Bringing Structure to Innovation"
           text="Patrick translates bold concepts into actionable plans that empower teamwork and real progress."
-          picture="/patrickbla.png"
+          picture="/patrick_new.png"
           delay={0.2}
           link="https://www.linkedin.com/in/patrick-woznik/"
         />
