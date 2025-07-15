@@ -24,7 +24,7 @@ const Header = ({ refs }: HeaderProps) => {
         scrollDir === 'down' ? '-translate-y-full' : 'translate-y-0'
       }`}
     >
-      <img src="logo.png" alt="logo" className="w-30 h-10" />
+      <div className="font-medium">[re:frame]</div>
       <div className="flex space-x-8 text-gray-500">
         {Object.keys(refs).map((section) => (
           <div
