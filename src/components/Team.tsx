@@ -9,7 +9,7 @@ const Team = () => {
           name="Hai Long Do Pham"
           title="Driving Ideas into Impact"
           text="From vision to execution - Hai Long combines creativity with technical skill to bring ideas to life."
-          picture="/hailong.png"
+          picture="/hailongbla.png"
           delay={0}
           link="https://github.com/hai-long05"
         />
@@ -17,7 +17,7 @@ const Team = () => {
           name="Patrick Woznik"
           title="Bringing Structure to Innovation"
           text="Patrick translates bold concepts into actionable plans that empower teamwork and real progress."
-          picture="/patrick.png"
+          picture="/patrickbla.png"
           delay={0.2}
           link="https://www.linkedin.com/in/patrick-woznik/"
         />
@@ -25,7 +25,7 @@ const Team = () => {
           name="Jason Rückheim"
           title="Turning Potential into Performance"
           text="With a sharp focus on outcomes, Jason bridges ambition and strategy to build meaningful solutions."
-          picture="/jason.jpg"
+          picture="/jasonbla.jpg"
           delay={0.4}
           link="https://linkedin.com/in/jasonrückheim"
         />
